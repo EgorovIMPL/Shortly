@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Shortly.Api.Grpc";
+
+package shortly.v1;
+
+service LinkService {
+  rpc Resolve (ResolveRequest) returns (ResolveReply);
+  rpc Create  (CreateRequest)  returns (CreateReply);
+}
+
+message ResolveRequest {
+  string code = 1;
+}
+
+message ResolveReply {
+  bool   found        = 1;
+  string original_url = 2;
+  int64  link_id      = 3;
+}
+
+message CreateRequest {
+  string original_url = 1;
+  string custom_code  = 2;
+}
+
+message CreateReply {
+  string code      = 1;
+  string short_url = 2;
+}

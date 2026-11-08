@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Shortly.Api/Shortly.Api.csproj" />
+    <Project Path="Shortly.Application/Shortly.Application.csproj" />
+    <Project Path="Shortly.Domain/Shortly.Domain.csproj" />
+    <Project Path="Shortly.Infrastructure/Shortly.Infrastructure.csproj" />
+    <Project Path="Shortly.UnitTests/Shortly.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/Элементы решения/">
+    <File Path="README.md" />
+  </Folder>
+</Solution>
