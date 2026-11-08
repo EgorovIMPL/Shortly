@@ -7,6 +7,9 @@
     <Project Path="Shortly.UnitTests/Shortly.UnitTests.csproj" />
   </Folder>
   <Folder Name="/Элементы решения/">
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
+    <File Path="prometheus.yml" />
     <File Path="README.md" />
   </Folder>
 </Solution>
